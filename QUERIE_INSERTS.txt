@@ -1,0 +1,747 @@
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('John Doe', TO_DATE('1990-05-15', 'YYYY-MM-DD'), '123456789', 'john.doe@example.com', '123 Main St', 'USA', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Alice Smith', TO_DATE('1985-08-22', 'YYYY-MM-DD'), '987654321', 'alice.smith@example.com', '456 Elm St', 'Canada', 2, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Bob Johnson', TO_DATE('1993-02-10', 'YYYY-MM-DD'), '555123456', 'bob.johnson@example.com', '789 Oak St', 'UK', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Emily Brown', TO_DATE('1988-11-30', 'YYYY-MM-DD'), '666789123', 'emily.brown@example.com', '321 Pine St', 'Australia', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Michael Wilson', TO_DATE('1975-04-25', 'YYYY-MM-DD'), '222333444', 'michael.wilson@example.com', '987 Cedar St', 'Germany', 2, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Jessica Lee', TO_DATE('1997-09-18', 'YYYY-MM-DD'), '999888777', 'jessica.lee@example.com', '654 Birch St', 'France', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('David Martin', TO_DATE('1983-07-12', 'YYYY-MM-DD'), '777444555', 'david.martin@example.com', '741 Maple St', 'Spain', 2, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Sarah Taylor', TO_DATE('1991-01-05', 'YYYY-MM-DD'), '333555999', 'sarah.taylor@example.com', '852 Walnut St', 'Italy', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Daniel Garcia', TO_DATE('1980-12-08', 'YYYY-MM-DD'), '111222333', 'daniel.garcia@example.com', '963 Spruce St', 'Mexico', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Olivia Rodriguez', TO_DATE('1995-06-20', 'YYYY-MM-DD'), '444777888', 'olivia.rodriguez@example.com', '159 Oak St', 'Brazil', 2, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('William Martinez', TO_DATE('1970-03-14', 'YYYY-MM-DD'), '888999111', 'william.martinez@example.com', '258 Elm St', 'Argentina', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Sophia Hernandez', TO_DATE('1992-04-03', 'YYYY-MM-DD'), '222777444', 'sophia.hernandez@example.com', '369 Pine St', 'Chile', 2, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('James Gonzalez', TO_DATE('1986-10-17', 'YYYY-MM-DD'), '555222333', 'james.gonzalez@example.com', '753 Cedar St', 'Peru', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Emma Perez', TO_DATE('1994-08-28', 'YYYY-MM-DD'), '999111222', 'emma.perez@example.com', '852 Maple St', 'Colombia', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Alexander Lopez', TO_DATE('1982-11-12', 'YYYY-MM-DD'), '333444777', 'alexander.lopez@example.com', '963 Birch St', 'Venezuela', 2, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Isabella Diaz', TO_DATE('1998-02-07', 'YYYY-MM-DD'), '777111222', 'isabella.diaz@example.com', '159 Walnut St', 'Ecuador', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Matthew Rivera', TO_DATE('1978-05-23', 'YYYY-MM-DD'), '111444888', 'matthew.rivera@example.com', '258 Pine St', 'Uruguay', 2, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Charlotte Torres', TO_DATE('1993-12-15', 'YYYY-MM-DD'), '888111444', 'charlotte.torres@example.com', '369 Elm St', 'Paraguay', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Andrew Flores', TO_DATE('1987-07-06', 'YYYY-MM-DD'), '222444888', 'andrew.flores@example.com', '753 Oak St', 'Bolivia', 2, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Mia Gomez', TO_DATE('1990-09-02', 'YYYY-MM-DD'), '444888111', 'mia.gomez@example.com', '456 Spruce St', 'Panama', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Juan Pérez', TO_DATE('1990-05-15', 'YYYY-MM-DD'), '123456789', 'juan.perez@example.com', 'Calle Principal 123', 'España', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('María García', TO_DATE('1985-08-22', 'YYYY-MM-DD'), '987654321', 'maria.garcia@example.com', 'Avenida Central 456', 'México', 2, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Luis Martínez', TO_DATE('1993-02-10', 'YYYY-MM-DD'), '555123456', 'luis.martinez@example.com', 'Calle Secundaria 789', 'Argentina', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Ana Rodríguez', TO_DATE('1988-11-30', 'YYYY-MM-DD'), '666789123', 'ana.rodriguez@example.com', 'Plaza Mayor 321', 'Colombia', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Pedro López', TO_DATE('1975-04-25', 'YYYY-MM-DD'), '222333444', 'pedro.lopez@example.com', 'Paseo de la Reforma 987', 'Perú', 2, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Laura Sánchez', TO_DATE('1997-09-18', 'YYYY-MM-DD'), '999888777', 'laura.sanchez@example.com', 'Calle de la Independencia 654', 'Chile', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Carlos Hernández', TO_DATE('1983-07-12', 'YYYY-MM-DD'), '777444555', 'carlos.hernandez@example.com', 'Avenida Libertador 741', 'Uruguay', 2, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Sofía Díaz', TO_DATE('1991-01-05', 'YYYY-MM-DD'), '333555999', 'sofia.diaz@example.com', 'Rúa de Santiago 852', 'Ecuador', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Miguel Ruiz', TO_DATE('1980-12-08', 'YYYY-MM-DD'), '111222333', 'miguel.ruiz@example.com', 'Rua Augusta 963', 'Panamá', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Paula Castro', TO_DATE('1995-06-20', 'YYYY-MM-DD'), '444777888', 'paula.castro@example.com', 'Rua do Carmo 159', 'Venezuela', 2, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Andrés Gómez', TO_DATE('1970-03-14', 'YYYY-MM-DD'), '888999111', 'andres.gomez@example.com', 'Carrera 7 258', 'Bolivia', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Valentina Torres', TO_DATE('1992-04-03', 'YYYY-MM-DD'), '222777444', 'valentina.torres@example.com', 'Carrera 15 369', 'Paraguay', 2, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Gabriel Reyes', TO_DATE('1986-10-17', 'YYYY-MM-DD'), '555222333', 'gabriel.reyes@example.com', 'Rua da Boavista 753', 'Costa Rica', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Natalia Vargas', TO_DATE('1994-08-28', 'YYYY-MM-DD'), '999111222', 'natalia.vargas@example.com', 'Calle Real 852', 'Guatemala', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Diego Morales', TO_DATE('1982-11-12', 'YYYY-MM-DD'), '333444777', 'diego.morales@example.com', 'Calle 26 963', 'El Salvador', 2, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Valeria Méndez', TO_DATE('1998-02-07', 'YYYY-MM-DD'), '777111222', 'valeria.mendez@example.com', 'Carrera 13 159', 'Honduras', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Alejandro Soto', TO_DATE('1978-05-23', 'YYYY-MM-DD'), '111444888', 'alejandro.soto@example.com', 'Calle 50 258', 'Nicaragua', 2, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Fernanda Castro', TO_DATE('1993-12-15', 'YYYY-MM-DD'), '888111444', 'fernanda.castro@example.com', 'Rua XV de Novembro 369', 'Puerto Rico', 1, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Pablo Ramírez', TO_DATE('1987-07-06', 'YYYY-MM-DD'), '222444888', 'pablo.ramirez@example.com', 'Rua das Flores 753', 'República Dominicana', 2, SYSDATE);
+
+INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+VALUES ('Elena Chávez', TO_DATE('1990-09-02', 'YYYY-MM-DD'), '444888111', 'elena.chavez@example.com', 'Calle de la Luna 456', 'Cuba', 1, SYSDATE);
+
+INSERT INTO genero (nombregenero) VALUES ('Aventura épica'); 
+INSERT INTO genero (nombregenero) VALUES ('Ciencia ficción'); 
+INSERT INTO genero (nombregenero) VALUES ('Acción');
+INSERT INTO genero (nombregenero) VALUES ('Animación'); 
+INSERT INTO genero (nombregenero) VALUES ('Drama carcelario'); 
+INSERT INTO genero (nombregenero) VALUES ('Drama'); 
+INSERT INTO genero (nombregenero) VALUES ('Crimen'); 
+INSERT INTO genero (nombregenero) VALUES ('Comedia'); 
+INSERT INTO genero (nombregenero) VALUES ('Romance'); 
+INSERT INTO genero (nombregenero) VALUES ('Thriller'); 
+
+INSERT INTO saga (nombre, tema) VALUES ('The Lord of the Rings', 'Fantasía épica');
+INSERT INTO saga (nombre, tema) VALUES ('The Matrix', 'Ciencia ficción');
+INSERT INTO saga (nombre, tema) VALUES ('Batman Trilogy', 'Superhéroes');
+INSERT INTO saga (nombre, tema) VALUES ('Toy Story', 'Animación');
+
+INSERT INTO macroserie (nombre, temamacroserie) VALUES ('Stranger Things', 'Misterio y Ciencia ficción');
+INSERT INTO macroserie (nombre, temamacroserie) VALUES ('Game of Thrones', 'Fantasía épica');
+INSERT INTO macroserie (nombre, temamacroserie) VALUES ('Friends', 'Comedia');
+INSERT INTO macroserie (nombre, temamacroserie) VALUES ('Breaking Bad', 'Drama carcelario');
+INSERT INTO macroserie (nombre, temamacroserie) VALUES ('The Office', 'Comedia');
+
+INSERT INTO docuserie (nombre, temadocuserie) VALUES ('The Last Dance', 'Documental sobre la carrera de Michael Jordan');
+INSERT INTO docuserie (nombre, temadocuserie) VALUES ('Making a Murderer', 'Un hombre es condenado injustamente');
+INSERT INTO docuserie (nombre, temadocuserie) VALUES ('Tiger King', 'Documental sobre criadores de grandes felinos en Estados Unidos');
+INSERT INTO docuserie (nombre, temadocuserie) VALUES ('Wild Wild Country', 'Sobre el controvertido líder religioso Bhagwan Shree Rajneesh');
+
+-- Películas del Señor de los Anillos
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'The Lord of the Rings: The Fellowship of the Ring', TO_DATE('2001', 'YYYY'), 'USA', 'New Line Cinema', 'PG-13', 178, 'Aventura épica', NULL, NULL, 1, 1, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'The Lord of the Rings: The Two Towers', TO_DATE('2002', 'YYYY'), 'USA', 'New Line Cinema', 'PG-13', 179, 'Aventura épica', NULL, NULL, 1, 1, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'The Lord of the Rings: The Return of the King', TO_DATE('2003', 'YYYY'), 'USA', 'New Line Cinema', 'PG-13', 201, 'Aventura épica', NULL, NULL, 1, 1, NULL, NULL);
+
+-- Películas de The Matrix
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'The Matrix', TO_DATE('1999', 'YYYY'), 'USA', 'Warner Bros.', 'R', 136, 'Ciencia ficción', NULL, NULL, 2, 2, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'The Matrix Reloaded', TO_DATE('2003', 'YYYY'), 'USA', 'Warner Bros.', 'R', 138, 'Ciencia ficción', NULL, NULL, 2, 2, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'The Matrix Revolutions', TO_DATE('2003', 'YYYY'), 'USA', 'Warner Bros.', 'R', 129, 'Ciencia ficción', NULL, NULL, 2, 2, NULL, NULL);
+
+-- Películas de Batman por Christopher Nolan
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'Batman Begins', TO_DATE('2005', 'YYYY'), 'USA', 'Warner Bros.', 'PG-13', 140, 'Acción', NULL, NULL, 3, 3, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'The Dark Knight', TO_DATE('2008', 'YYYY'), 'USA', 'Warner Bros.', 'PG-13', 152, 'Acción', NULL, NULL, 3, 3, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'The Dark Knight Rises', TO_DATE('2012', 'YYYY'), 'USA', 'Warner Bros.', 'PG-13', 164, 'Acción', NULL, NULL, 3, 3, NULL, NULL);
+
+-- Películas de Toy Story
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'Toy Story', TO_DATE('1995', 'YYYY'), 'USA', 'Pixar Animation Studios', 'G', 81, 'Animación', NULL, NULL, 4, 4, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'Toy Story 2', TO_DATE('1999', 'YYYY'), 'USA', 'Pixar Animation Studios', 'G', 92, 'Animación', NULL, NULL, 4, 4, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'Toy Story 3', TO_DATE('2010', 'YYYY'), 'USA', 'Pixar Animation Studios', 'G', 103, 'Animación', NULL, NULL, 4, 4, NULL, NULL);
+
+-- Otras películas y series
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'Inception', TO_DATE('2010', 'YYYY'), 'USA', 'Warner Bros.', 'PG-13', 148, 'Ciencia ficción', NULL, NULL, 2, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'Interstellar', TO_DATE('2014', 'YYYY'), 'USA', 'Warner Bros.', 'PG-13', 169, 'Ciencia ficción', NULL, NULL, 2, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'The Shawshank Redemption', TO_DATE('1994', 'YYYY'), 'USA', 'Columbia Pictures', 'R', 142, 'Drama carcelario', NULL, NULL, 5, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'Forrest Gump', TO_DATE('1994', 'YYYY'), 'USA', 'Paramount Pictures', 'PG-13', 142, 'Drama', NULL, NULL, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'The Godfather', TO_DATE('1972', 'YYYY'), 'USA', 'Paramount Pictures', 'R', 175, 'Crimen', NULL, NULL, 7, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'Pulp Fiction', TO_DATE('1994', 'YYYY'), 'USA', 'Miramax Films', 'R', 154, 'Crimen', NULL, NULL, 7, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'The Silence of the Lambs', TO_DATE('1991', 'YYYY'), 'USA', 'Orion Pictures', 'R', 118, 'Crimen', NULL, NULL, 10, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (1, 'The Lion King', TO_DATE('1994', 'YYYY'), 'USA', 'Walt Disney Pictures', 'G', 88, 'Animación', NULL, NULL, 4, NULL, NULL, NULL);
+
+-- Macroserie Stranger Things
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'Stranger Things', TO_DATE('2016', 'YYYY'), 'USA', 'Netflix', 'TV-14', NULL, 'Misterio y Ciencia ficción', 4, 25, 6, NULL, 1, NULL);
+
+-- Macroserie Game of Thrones
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'Game of Thrones', TO_DATE('2011', 'YYYY'), 'USA', 'HBO', 'TV-MA', NULL, 'Fantasía épica', 8, 73, 6, NULL, 2, NULL);
+
+-- Macroserie Friends
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'Friends', TO_DATE('1994', 'YYYY'), 'USA', 'NBC', 'TV-14', NULL, 'Comedia', 10, 236, 8, NULL, 3, NULL);
+
+-- Otras series
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'Breaking Bad', TO_DATE('2008', 'YYYY'), 'USA', 'AMC', 'TV-MA', NULL, 'Drama carcelario', 5, 62, 7, NULL, 4, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'The Office', TO_DATE('2005', 'YYYY'), 'USA', 'NBC', 'TV-14', NULL, 'Comedia', 9, 201, 8, NULL, 5, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'Money Heist', TO_DATE('2017', 'YYYY'), 'Spain', 'Antena 3', 'TV-MA', NULL, 'Crimen', 5, 52, 7, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'The Crown', TO_DATE('2016', 'YYYY'), 'UK', 'Netflix', 'TV-MA', NULL, 'Drama', 5, 40, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'The Witcher', TO_DATE('2019', 'YYYY'), 'USA', 'Netflix', 'TV-MA', NULL, 'Fantasía', 2, 16, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'Brooklyn Nine-Nine', TO_DATE('2013', 'YYYY'), 'USA', 'NBC', 'TV-14', NULL, 'Comedia', 8, 153, 8, NULL, NULL, NULL);
+
+-- Películas
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'Peaky Blinders', TO_DATE('2013', 'YYYY'), 'Reino Unido', 'BBC', 'TV-MA', NULL, 'Gangsters en la posguerra.', 6, 30, 7, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'The Handmaid''s Tale', TO_DATE('2017', 'YYYY'), 'USA', 'Hulu', 'TV-MA', NULL, 'Distopía feminista.', 4, 46, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'Stranger', TO_DATE('2017', 'YYYY'), 'Corea del Sur', 'Netflix', 'TV-MA', NULL, 'Misterio sobrenatural.', 2, 48, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'Dark', TO_DATE('2017', 'YYYY'), 'Alemania', 'Netflix', 'TV-MA', NULL, 'Viajes en el tiempo.', 3, 26, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'The Boys', TO_DATE('2019', 'YYYY'), 'USA', 'Amazon Prime Video', 'TV-MA', NULL, 'Superhéroes corruptos.', 2, 16, 7, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'The Mandalorian', TO_DATE('2019', 'YYYY'), 'USA', 'Lucasfilm', 'TV-14', NULL, 'Space Western.', 2, 16, 2, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'The Umbrella Academy', TO_DATE('2019', 'YYYY'), 'USA', 'Netflix', 'TV-14', NULL, 'Superhéroes disfuncionales.', 2, 20, 7, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'Lost', TO_DATE('2004', 'YYYY'), 'USA', 'ABC Studios', 'TV-14', NULL, 'Personas varadas en una isla misteriosa.', 6, 121, 1, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'Mindhunter', TO_DATE('2017', 'YYYY'), 'USA', 'Netflix', 'TV-MA', NULL, 'Perfiles de asesinos.', 3, 19, 7, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'The Expanse', TO_DATE('2015', 'YYYY'), 'USA', 'Amazon Prime Video', 'TV-14', NULL, 'Exploración espacial.', 5, 59, 2, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (2, 'Black Mirror', TO_DATE('2011', 'YYYY'), 'Reino Unido', 'Channel 4', 'TV-MA', NULL, 'Tecnología distópica.', 6, 22, 6, NULL, NULL, NULL);
+
+-- Docuseries
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'Planet Earth', TO_DATE('2006', 'YYYY'), 'UK', 'BBC', 'G', 60, 'Exploración de la naturaleza', NULL, NULL, 4, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'Cosmos: A Spacetime Odyssey', TO_DATE('2014', 'YYYY'), 'USA', 'Fox', 'TV-PG', 45, 'Viaje a través del cosmos', 1, NULL, 2, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'The Blue Planet', TO_DATE('2001', 'YYYY'), 'UK', 'BBC', 'G', 50, 'Exploración de los océanos', NULL, NULL, 4, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'Making a Murderer', TO_DATE('2015', 'YYYY'), 'USA', 'Netflix', 'TV-14', 60, 'Un hombre es condenado injustamente', 1, NULL, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, '13th', TO_DATE('2016', 'YYYY'), 'USA', 'Netflix', 'TV-MA', 100, 'Sobre la decimotercera enmienda de la Constitución de USA', NULL, NULL, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'Jiro Dreams of Sushi', TO_DATE('2011', 'YYYY'), 'USA', 'Magnolia Pictures', 'PG', 90, 'Jiro Ono, maestro de sushi', NULL, NULL, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'Won''t You Be My Neighbor?', TO_DATE('2018', 'YYYY'), 'USA', 'Focus Features', 'PG-13', 94, 'Explora la vida de Fred Rogers', NULL, NULL, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'Blackfish', TO_DATE('2013', 'YYYY'), 'USA', 'Magnolia Pictures', 'PG-13', 83, 'Documental sobre las orcas en cautiverio', NULL, NULL, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'RBG', TO_DATE('2018', 'YYYY'), 'USA', 'Magnolia Pictures', 'PG', 98, 'Perfil de la jueza Ruth Bader Ginsburg', NULL, NULL, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'The Cove', TO_DATE('2009', 'YYYY'), 'USA', 'Roadside Attractions', 'PG-13', 92, 'Documental sobre la caza de delfines en Taiji', NULL, NULL, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'Man on Wire', TO_DATE('2008', 'YYYY'), 'UK', 'Magnolia Pictures', 'PG-13', 94, 'Historia de Philippe Petit', NULL, NULL, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'The Act of Killing', TO_DATE('2012', 'YYYY'), 'Denmark', 'Final Cut for Real', 'PG-18', 122, 'Asesinatos en masa en Indonesia', NULL, NULL, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'The Fog of War', TO_DATE('2003', 'YYYY'), 'USA', 'Sony Pictures Classics', 'PG-13', 107, 'El exsecretario reflexiona guerra', NULL, NULL, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'March of the Penguins', TO_DATE('2005', 'YYYY'), 'France', 'Warner Independent Pictures', 'G', 85, 'La vida de los pingüinos en la Antártida', NULL, NULL, 4, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'Searching for Sugar Man', TO_DATE('2012', 'YYYY'), 'Sweden', 'Sony Pictures Classics', 'PG-13', 86, 'La búsqueda del músico Sixto Rodríguez', NULL, NULL, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'Amy', TO_DATE('2015', 'YYYY'), 'UK', 'Altitude Film Distribution', 'R', 128, 'El ascenso y la caída de la cantante Amy Winehouse', NULL, NULL, 6, NULL, NULL, NULL);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'The Last Dance', TO_DATE('2020', 'YYYY'), 'USA', 'ESPN Films', 'TV-MA', NULL, 'Documental sobre la carrera de Michael Jordan', 1, 8, 6, NULL, NULL, 1);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'Making a Murderer', TO_DATE('2015', 'YYYY'), 'USA', 'Netflix', 'TV-14', NULL, 'Un hombre es condenado injustamente', 2, 16, 7, NULL, NULL, 2);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'Tiger King', TO_DATE('2020', 'YYYY'), 'USA', 'Netflix', 'TV-MA', NULL, 'Documental sobre criadores de grandes felinos en Estados Unidos', 1, 6, 6, NULL, NULL, 3);
+
+INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+VALUES (3, 'Wild Wild Country', TO_DATE('2018', 'YYYY'), 'USA', 'Netflix', 'TV-MA', NULL, 'Sobre el controvertido líder religioso Bhagwan Shree Rajneesh', 1, 8, 6, NULL, NULL, 4);
+
+
+
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('iPhone', 'A', 1, 1);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Android', 'B', 2, 2);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('iPad', 'C', 3, 3);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Smart TV', 'D', 4, 4);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Laptop', 'E', 5, 5);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Tablet', 'F', 6, 6);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Smartwatch', 'G', 7, 7);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Apple TV', 'H', 8, 8);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Desktop', 'I', 9, 9);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Amazon Fire Stick', 'J', 10, 10);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('PlayStation', 'K', 11, 11);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Xbox', 'L', 12, 12);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Chromecast', 'M', 13, 13);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Roku', 'N', 14, 14);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Nintendo Switch', 'O', 15, 15);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Smart Speaker', 'P', 16, 16);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('VR Headset', 'Q', 17, 17);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('DVD Player', 'R', 18, 18);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Blu-ray Player', 'S', 19, 19);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Car Audio System', 'T', 20, 20);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('iPhone', 'A', 21, 21);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Android', 'B', 22, 22);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('iPad', 'C', 23, 23);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Smart TV', 'D', 24, 24);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Laptop', 'E', 25, 25);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Tablet', 'F', 26, 26);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Smartwatch', 'G', 27, 27);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Apple TV', 'H', 28, 28);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Desktop', 'I', 29, 29);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Amazon Fire Stick', 'J', 30, 30);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('PlayStation', 'K', 31, 31);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Xbox', 'L', 32, 32);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Chromecast', 'M', 33, 33);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Roku', 'N', 34, 34);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Nintendo Switch', 'O', 35, 35);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Smart Speaker', 'P', 36, 36);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('VR Headset', 'Q', 37, 37);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('DVD Player', 'R', 38, 38);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Blu-ray Player', 'S', 39, 39);
+INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Car Audio System', 'T', 40, 40);
+
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 1);   
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 2);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 3);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 4);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 5);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 6);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 7);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 8);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 9);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 10);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 11);   
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 12);   
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 13);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 14);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 15);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 16);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 17);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 18);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 19);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 20);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 1); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 2);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 3); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 4); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 5); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 6);
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 7); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 8); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 9); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 10);
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 11); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 12); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 13); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 14); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 15); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 16); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 17); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 18); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 19); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 20); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 21);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 22); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 23);
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 24); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 25);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 26);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 27);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 28);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 29);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 30); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 31);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 32);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 33);
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 34);
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 35);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 36);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 37);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 38);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 39); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 40);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 21); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 22); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 23);
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 24); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 25); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 26); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 27);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 28); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 29); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 30); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 31); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 32); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 33); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 34); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 35);
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 36); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 37); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 38);
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 39); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 40); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 41); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 42);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 43);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 44); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 45);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 46);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 47);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 48);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 49); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 50); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 51);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 52); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 53);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 54);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 55);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 56); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 57);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 58); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 59);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (1, 60);  
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 41);
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 42);
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 43); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 44); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 45); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 46); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 47); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 48); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 49);
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 50); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 51);
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 52); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 53); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 54); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 55);
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 56); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 57); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 58); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 59); 
+INSERT INTO audio (codigoidiomaaudio, produccion_id) VALUES (2, 60); 
+
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 1);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 2);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 3);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 4);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 5);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 6);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 7);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 8);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 9);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 10);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 11);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 12);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 13);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 14);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 15);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 16);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 17);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 18);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 19);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 20);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 1);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 2);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 3);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 4);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 5);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 6);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 7);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 8);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 9);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 10);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 11);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 12);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 13);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 14);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 15);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 16);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 17);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 18);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 19);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 20);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 21);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 22);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 23);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 24);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 25);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 26);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 27);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 28);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 29);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 30);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 31);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 32);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 33);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 34);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 35);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 36);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 37);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 38);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 39);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 40);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 41);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 42);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 43);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 44);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 45);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 46);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 47);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 48);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 49);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 50);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 51);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 52);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 53);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 54);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 55);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 56);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 57);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 58);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 59);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (2, 60);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 41);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 42);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 43);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 44);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 45);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 46);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 47);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 48);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 49);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 50);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 51);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 52);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 53);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 54);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 55);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 56);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 57);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 58);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 59);
+INSERT INTO subtitulo (codigoidiomasub, produccion_id) VALUES (1, 60);
+
+
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Elijah Wood', TO_DATE('1981-01-28', 'YYYY-MM-DD'), 43, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Sean Astin', TO_DATE('1971-02-25', 'YYYY-MM-DD'), 51, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Keanu Reeves', TO_DATE('1964-09-02', 'YYYY-MM-DD'), 59, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Carrie-Anne Moss', TO_DATE('1967-08-21', 'YYYY-MM-DD'), 56, 'F', 'Canada');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Christian Bale', TO_DATE('1974-01-30', 'YYYY-MM-DD'), 50, 'M', 'UK');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Heath Ledger', TO_DATE('1979-04-04', 'YYYY-MM-DD'), 34, 'M', 'Australia');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Tom Hanks', TO_DATE('1956-07-09', 'YYYY-MM-DD'), 68, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Tim Allen', TO_DATE('1953-06-13', 'YYYY-MM-DD'), 70, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Bud Spencer', TO_DATE('1929-10-31', 'YYYY-MM-DD'), 85, 'M', 'Italy');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Terence Hill', TO_DATE('1939-03-29', 'YYYY-MM-DD'), 75, 'M', 'Italy');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Leonardo DiCaprio', TO_DATE('1974-11-11', 'YYYY-MM-DD'), 47, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Joseph Gordon-Levitt', TO_DATE('1981-02-17', 'YYYY-MM-DD'), 43, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Matthew McConaughey', TO_DATE('1969-11-04', 'YYYY-MM-DD'), 54, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Morgan Freeman', TO_DATE('1937-06-01', 'YYYY-MM-DD'), 86, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Andy Dufresne', TO_DATE('1947-06-01', 'YYYY-MM-DD'), 75, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Tommy Wiseau', TO_DATE('1955-10-03', 'YYYY-MM-DD'), 68, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('James Franco', TO_DATE('1978-04-19', 'YYYY-MM-DD'), 45, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Marlon Brando', TO_DATE('1924-04-03', 'YYYY-MM-DD'), 80, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Al Pacino', TO_DATE('1940-04-25', 'YYYY-MM-DD'), 83, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('John Travolta', TO_DATE('1954-02-18', 'YYYY-MM-DD'), 70, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Jodie Foster', TO_DATE('1962-11-19', 'YYYY-MM-DD'), 61, 'F', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Winona Ryder', TO_DATE('1971-10-29', 'YYYY-MM-DD'), 52, 'F', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('David Harbour', TO_DATE('1975-04-10', 'YYYY-MM-DD'), 48, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Millie Bobby Brown', TO_DATE('2004-02-19', 'YYYY-MM-DD'), 20, 'F', 'UK');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Finn Wolfhard', TO_DATE('2002-12-23', 'YYYY-MM-DD'), 21, 'M', 'Canada');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Peter Dinklage', TO_DATE('1969-06-11', 'YYYY-MM-DD'), 54, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Kit Harington', TO_DATE('1986-12-26', 'YYYY-MM-DD'), 37, 'M', 'UK');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Emilia Clarke', TO_DATE('1986-10-23', 'YYYY-MM-DD'), 37, 'F', 'UK');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Jennifer Aniston', TO_DATE('1969-02-11', 'YYYY-MM-DD'), 55, 'F', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Courteney Cox', TO_DATE('1964-06-15', 'YYYY-MM-DD'), 59, 'F', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Lisa Kudrow', TO_DATE('1963-07-30', 'YYYY-MM-DD'), 58, 'F', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Bryan Cranston', TO_DATE('1956-03-07', 'YYYY-MM-DD'), 68, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Aaron Paul', TO_DATE('1979-08-27', 'YYYY-MM-DD'), 44, 'M', 'USA');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Úrsula Corberó', TO_DATE('1989-08-11', 'YYYY-MM-DD'), 35, 'F', 'Spain');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Álvaro Morte', TO_DATE('1975-02-23', 'YYYY-MM-DD'), 49, 'M', 'Spain');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Claire Foy', TO_DATE('1984-04-16', 'YYYY-MM-DD'), 39, 'F', 'UK');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Matt Smith', TO_DATE('1982-10-28', 'YYYY-MM-DD'), 42, 'M', 'UK');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Henry Cavill', TO_DATE('1983-05-05', 'YYYY-MM-DD'), 41, 'M', 'UK');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Anna Torv', TO_DATE('1979-06-07', 'YYYY-MM-DD'), 45, 'F', 'Australia');
+INSERT INTO artista (nombre, fechanacimiento, edad, sexo, pais) VALUES ('Josh Radnor', TO_DATE('1974-07-29', 'YYYY-MM-DD'), 50, 'M', 'USA');
+
+
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 1, 1);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 1, 2);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 2, 1);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 2, 2);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 3, 1);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 3, 2);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 4, 3);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 4, 4);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 5, 3);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 5, 4);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 6, 3);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 6, 4);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 7, 5);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 8, 6);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 9, 5);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 10, 7);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 11, 8);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 12, 8);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 13, 11);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 13, 12);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 14, 13);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 14, 14);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 15, 15);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 16, 7);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 17, 18);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 40, 19);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 18, 20);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 19, 21);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 20, 19);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 21, 22);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 22, 23);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 23, 24);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 24, 25);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 25, 26);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 26, 27);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 27, 28);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 28, 29);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 29, 30);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 30, 31);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 31, 32);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 32, 33);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 33, 34);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 34, 35);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 35, 36);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 36, 37);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 37, 38);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 38, 39);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 39, 40);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 41, 21);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 42, 6);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 43, 19);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 44, 17);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 45, 4);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 46, 18);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 47, 3);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 48, 10);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 49, 9);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 50, 5);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 51, 14);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 52, 8);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 53, 15);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 54, 16);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 55, 12);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 56, 13);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 57, 7);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 58, 20);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (1, 59, 11);
+INSERT INTO rol (codigorol, produccion_id, artista_idartista) VALUES (2, 60, 2);
+
+-- Inserts para la tabla de reproducciones
+INSERT INTO reproduccion (fechainicio, estadoactual, minutomasreciente, cliente_id, produccion_id)
+SELECT 
+    TO_DATE('2024-03-14', 'YYYY-MM-DD') - ROUND(DBMS_RANDOM.VALUE(1, 365)), -- Fecha aleatoria en el último año
+    CASE ROUND(DBMS_RANDOM.VALUE(1, 2)) 
+        WHEN 1 THEN 'A' 
+        ELSE 'B' 
+    END, -- Estado aleatorio entre A y B
+    ROUND(DBMS_RANDOM.VALUE(1, 90)), -- Minuto más reciente aleatorio entre 1 y 90
+    ROUND(DBMS_RANDOM.VALUE(1, 40)), -- ID de cliente aleatorio entre 1 y 40
+    ROUND(DBMS_RANDOM.VALUE(1, 60)) -- ID de producción aleatorio entre 1 y 60
+FROM 
+    dual
+CONNECT BY 
+    level <= 30; 
+
+
+INSERT INTO descarga (fechadescarga, estadodescarga, tamanoarchivo, cliente_id, produccion_id, dispositivo_iddispositivo)
+SELECT 
+    TO_DATE('2024-03-14', 'YYYY-MM-DD') - ROUND(DBMS_RANDOM.VALUE(1, 365)), -- Fecha aleatoria en el último año
+    CASE ROUND(DBMS_RANDOM.VALUE(1, 2)) 
+        WHEN 1 THEN 'A' 
+        ELSE 'B' 
+    END, -- Estado aleatorio entre A y B
+    ROUND(DBMS_RANDOM.VALUE(100, 1000)), -- Tamaño de archivo aleatorio entre 100 y 1000
+    cliente_id, -- ID de cliente igual al ID de dispositivo
+    ROUND(DBMS_RANDOM.VALUE(1, 60)), -- ID de producción aleatorio entre 1 y 60
+    dispositivo_id -- ID de dispositivo
+FROM 
+    (SELECT cliente_id, iddispositivo AS dispositivo_id FROM dispositivo) -- Subconsulta para obtener cliente_id y dispositivo_id
+WHERE 
+    ROWNUM <= 30;

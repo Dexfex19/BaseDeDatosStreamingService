@@ -1,0 +1,247 @@
+-----QUERIE 1---------
+SELECT p.titulo AS Titulo,
+       CASE
+           WHEN p.codigoproduccion = 1 THEN 'Película'
+           WHEN p.codigoproduccion = 2 THEN 'Serie'
+           ELSE 'Desconocido'
+       END AS Tipo,
+       p.annio AS Año,
+       p.estudio AS Director,
+       p.pais AS País,
+       g.nombregenero AS Género
+FROM produccion p
+JOIN genero g ON p.genero_genero_id = g.genero_id
+WHERE p.codigoproduccion IN (1, 2);
+
+
+-----QUERIE 2---------
+
+SELECT p.titulo AS Título,
+       p.annio AS Año,
+       p.temporadas AS Temporadas,
+       g.nombregenero AS Géneros,
+       p.estudio AS Directores
+FROM produccion p
+JOIN genero g ON p.genero_genero_id = g.genero_id
+WHERE p.codigoproduccion IN (2, 3);
+
+-----QUERIE 3---------
+
+SELECT c.nombre AS NombreCliente,
+       SUM(CASE WHEN p.codigoproduccion = 1 THEN 1 ELSE 0 END) AS CantidadPeliculas,
+       SUM(CASE WHEN p.codigoproduccion = 2 THEN 1 ELSE 0 END) AS CantidadSeries,
+       SUM(CASE WHEN p.codigoproduccion = 3 THEN 1 ELSE 0 END) AS CantidadDocumentales
+FROM cliente c
+LEFT JOIN reproduccion r ON c.id = r.cliente_id
+LEFT JOIN produccion p ON r.produccion_id = p.id
+GROUP BY c.nombre;
+
+-----QUERIE 4---------
+
+SELECT p.titulo AS Título,
+       p.annio AS Año,
+       g.nombregenero AS Géneros,
+       COUNT(*) AS CantidadReproducciones
+FROM produccion p
+JOIN reproduccion r ON p.id = r.produccion_id
+JOIN genero g ON p.genero_genero_id = g.genero_id
+WHERE p.codigoproduccion = 1
+GROUP BY p.titulo, p.annio, g.nombregenero;
+-----QUERIE 5---------
+
+SELECT p.titulo AS Título,
+       p.annio AS Año,
+       p.temporadas AS Temporadas,
+       COUNT(*) AS CantidadReproducciones
+FROM produccion p
+JOIN reproduccion r ON p.id = r.produccion_id
+WHERE p.codigoproduccion = 2
+GROUP BY p.titulo, p.annio, p.temporadas
+ORDER BY p.annio, p.titulo;
+
+-----QUERIE 6---------
+
+SELECT p.titulo AS Título,
+       p.annio AS Año,
+       p.temporadas AS Temporadas,
+       COUNT(*) AS CantidadReproducciones
+FROM produccion p
+JOIN reproduccion r ON p.id = r.produccion_id
+WHERE p.codigoproduccion = 3
+GROUP BY p.titulo, p.annio, p.temporadas
+ORDER BY p.annio, p.titulo;
+
+-----QUERIE 7---------
+SELECT 
+    CASE 
+        WHEN p.codigoproduccion = 1 THEN 'Pelicula'
+        WHEN p.codigoproduccion = 2 THEN 'Serie'
+        WHEN p.codigoproduccion = 3 THEN 'Documental'
+    END AS Tipo,
+    p.titulo AS Título,
+    p.annio AS Año,
+    p.duracion AS Duración,
+    COUNT(d.produccion_id) AS "Cantidad de Descargas",
+    MAX(d.fechadescarga) AS "Fecha de Última Descarga"
+FROM 
+    produccion p
+LEFT JOIN 
+    descarga d ON p.id = d.produccion_id
+GROUP BY 
+    p.titulo, p.annio, p.duracion, p.codigoproduccion
+ORDER BY 
+    COUNT(d.produccion_id) DESC;
+
+
+-----QUERIE 8---------
+
+SELECT c.nombre AS "Nombre Completo",
+       c.fechainclusion AS "Año de Suscripción",
+       (SELECT COUNT(*) FROM reproduccion WHERE cliente_id = c.id AND produccion_id IN (SELECT id FROM produccion WHERE genero_genero_id = 1)) AS "Cantidad de Películas Reproducidas",
+       (SELECT COUNT(*) FROM descarga WHERE cliente_id = c.id) AS "Cantidad Total de Descargas",
+       (SELECT p.titulo FROM produccion p JOIN reproduccion r ON p.id = r.produccion_id WHERE r.cliente_id = c.id ORDER BY r.fechainicio DESC FETCH FIRST 1 ROW ONLY) AS "Título de la Última Película Reproducida",
+       (SELECT MAX(r.fechainicio) FROM reproduccion r WHERE r.cliente_id = c.id) AS "Fecha de la Última Reproducción"
+FROM cliente c
+ORDER BY c.nombre;
+
+-----Reporte 9-------
+
+
+WITH producciones AS (
+    SELECT 
+        p.id,
+        p.titulo,
+        CASE 
+            WHEN p.saga IS NOT NULL THEN 'Serie'
+            WHEN p.macroserie IS NOT NULL THEN 'Serie'
+            WHEN p.docuserie IS NOT NULL THEN 'Documental'
+            ELSE 'Película'
+        END AS tipo,
+        COUNT(DISTINCT d.cliente_id) AS cantidad_descargas,
+        COUNT(DISTINCT r.cliente_id) AS cantidad_reproducciones,
+        GREATEST(MAX(d.fechadescarga), MAX(r.fechainicio)) AS ultima_vez
+    FROM produccion p
+    LEFT JOIN descarga d ON p.id = d.produccion_id
+    LEFT JOIN reproduccion r ON p.id = r.produccion_id
+    GROUP BY p.id, p.titulo, p.saga, p.macroserie, p.docuserie
+),
+ranked_producciones AS (
+    SELECT 
+        ROW_NUMBER() OVER (ORDER BY (cantidad_descargas + cantidad_reproducciones) DESC) AS Top,
+        titulo,
+        tipo,
+        cantidad_descargas,
+        cantidad_reproducciones,
+        ultima_vez
+    FROM producciones
+)
+SELECT * FROM ranked_producciones WHERE Top <= 10;
+
+
+--- Reporte 10-------
+
+WITH producciones AS (
+    SELECT 
+        g.nombregenero AS genero,
+        COUNT(DISTINCT CASE WHEN p.saga IS NOT NULL OR p.macroserie IS NOT NULL THEN p.id END) AS series,
+        COUNT(DISTINCT CASE WHEN p.saga IS NULL AND p.macroserie IS NULL AND p.docuserie IS NULL THEN p.id END) AS peliculas,
+        MIN(CASE WHEN p.saga IS NULL AND p.macroserie IS NULL AND p.docuserie IS NULL THEN p.annio END) AS primer_pelicula,
+        MIN(CASE WHEN p.saga IS NOT NULL OR p.macroserie IS NOT NULL THEN p.annio END) AS primer_serie
+    FROM produccion p
+    JOIN genero g ON p.genero_genero_id = g.genero_id
+    GROUP BY g.nombregenero
+),
+ranked_producciones AS (
+    SELECT 
+        ROW_NUMBER() OVER (ORDER BY LEAST(primer_pelicula, primer_serie)) AS Top,
+        genero,
+        peliculas,
+        series,
+        primer_pelicula,
+        primer_serie
+    FROM producciones
+)
+SELECT * FROM ranked_producciones;
+
+
+
+---Triggers para el avance3, cuando se agrega tabla de pago-----
+
+CREATE OR REPLACE TRIGGER verificar_pago_descarga
+BEFORE INSERT ON descarga
+FOR EACH ROW
+DECLARE 
+    v_pago NUMBER;
+BEGIN
+    SELECT COUNT(*) INTO v_pago
+    FROM pago
+    WHERE cliente_id = :NEW.cliente_id AND estado_pago = 'Pagado';
+
+    IF v_pago = 0 THEN
+        RAISE_APPLICATION_ERROR(-20001, 'Falta de Pago: No se puede registrar la descarga');
+    END IF;
+END;
+/
+
+CREATE OR REPLACE TRIGGER verificar_pago_reproduccion
+BEFORE INSERT ON reproduccion
+FOR EACH ROW
+DECLARE 
+    v_pago NUMBER;
+BEGIN
+    SELECT COUNT(*) INTO v_pago
+    FROM pago
+    WHERE cliente_id = :NEW.cliente_id AND estado_pago = 'Pagado';
+
+    IF v_pago = 0 THEN
+        RAISE_APPLICATION_ERROR(-20001, 'Falta de Pago: No se puede registrar la reproducción');
+    END IF;
+END;
+/
+
+
+
+------bloque de prueba------
+
+DECLARE
+    v_cliente_id NUMBER;
+    v_dispositivo_id NUMBER;
+BEGIN
+    -- i. Registre 2 clientes nuevos (ALFA y BETA)
+    INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+    VALUES ('ALFA', TO_DATE('1990-01-01', 'YYYY-MM-DD'), '123456789', 'alfa@example.com', 'Dirección ALFA', 'País ALFA', 1, SYSDATE);
+
+    INSERT INTO cliente (nombre, fechanacimiento, telefono, email, direccion, pais, tipocuenta, fechainclusion)
+    VALUES ('BETA', TO_DATE('1985-05-10', 'YYYY-MM-DD'), '987654321', 'beta@example.com', 'Dirección BETA', 'País BETA', 1, SYSDATE);
+
+	INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('Telefono Iphone', 'U', 41, 41);
+	INSERT INTO dispositivo (nombredispositivo, codigodispositivo, cliente_id, id) VALUES ('TV Samsung', 'V', 42, 42);
+
+    -- ii. Registre el pago del cliente ALFA
+    INSERT INTO pago (cliente_id, monto, fecha_pago, metodo_pago, estado_pago)
+    VALUES (41, 100.00, SYSDATE, 'Tarjeta de crédito', 'Pagado');
+
+    -- iii. Ingrese una película, una serie y un documental
+    INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+    VALUES (1, 'El Gran Hotel Budapest', TO_DATE('2014-03-28', 'YYYY-MM-DD'), 'Estados Unidos', 'Fox Searchlight Pictures', 'PG-13', 99, 'El Gran Hotel Budapest es una película de comedia y aventuras dirigida por Wes Anderson.', NULL, NULL, 2, NULL, NULL, NULL);
+
+    INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+    VALUES (3, 'Nuestro Planeta', TO_DATE('2019-04-05', 'YYYY-MM-DD'), 'Reino Unido', 'Silverback Films', 'PG-13', 86, 'Nuestro Planeta es una serie documental de naturaleza de.', NULL, NULL, 6, NULL, NULL, NULL);
+
+    INSERT INTO produccion (codigoproduccion, titulo, annio, pais, estudio, clasificacion, duracion, abstract, temporadas, episodios, genero_genero_id, saga, macroserie, docuserie)
+    VALUES (2, 'Misterios en el Bosque', TO_DATE('2023-09-15', 'YYYY-MM-DD'), 'Desconocido', 'Producciones X', 'TV-14', NULL, 'Serie de misterio ambientada en un pueblo remoto, donde suceden eventos inexplicables.',  3, 60, 2, NULL, NULL, NULL);
+
+    -- iv. Solicite la descarga de la película nueva para el cliente ALFA
+    INSERT INTO descarga (fechadescarga, estadodescarga, tamanoarchivo, cliente_id, produccion_id, dispositivo_iddispositivo)
+    VALUES (SYSDATE, 'P', 1.35, 41, 61, 41);
+
+    -- v. Solicite una reproducción de la serie nueva para el cliente BETA
+    BEGIN
+        INSERT INTO reproduccion (fechainicio, estadoactual, minutomasreciente, cliente_id, produccion_id)
+        VALUES (SYSDATE, 'E', 0, 42, 62);
+    EXCEPTION
+        WHEN OTHERS THEN
+            DBMS_OUTPUT.PUT_LINE('Falta de Pago: No se puede registrar la reproducción para el cliente BETA');
+    END;
+END;
+/
